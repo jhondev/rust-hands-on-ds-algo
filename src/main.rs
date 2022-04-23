@@ -1,6 +1,10 @@
 mod concurrency;
 
 fn main() {
+    println!("\n*******************CONCURRENCY**\n");
     concurrency::threading();
-    println!("Hello, world!");
+    concurrency::channels();
+    concurrency::shared_state();
+
+    println!("\nDone!\n");
 }
